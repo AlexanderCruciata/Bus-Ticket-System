@@ -1,4 +1,4 @@
-# Busify-Ticket Booking System 🚌
+# Bus-Ticket Booking System for students 🚌
 
 A centralised bus ticket booking system that will allow the students to book tickets in advance through an online website, saving time and effort. Students will no longer need to physically stand in long queues to purchase tickets.
 
@@ -13,16 +13,10 @@ The proposed plan is to develop a bus ticket booking system consisting of the fo
 - Make Online Payments
 - Provides authentication
 - Authenticate using college email IDs,
-- QR code scanner,
 - A list of booked tickets.
-- Generates QR codes for confirmed tickets,
 - Sends email notifications with QR codes.
 
 In summary, the plan involves developing a user-friendly bus ticket booking system with a client app, centralized server, notification microservice, admin panel, and mobile app for conductors.
-
-# 🔗 Design 🎊
-
-[Figma Design](https://www.figma.com/file/DCKxO44wwjeAxmUHLvZ5wT/Busify?type=design&node-id=31%3A208&t=7aXZk7qlTON3A8C3-1)
 
 ## Screenshots
 
@@ -40,13 +34,6 @@ In summary, the plan involves developing a user-friendly bus ticket booking syst
 ## Backend
 
 - NestJS
-- Postgres
+- MongoDB
 - Redis
 
-# Run Locally
-
-The [Contributing.md](Contributing.md) contains the step-by-step procedure for contributing to this project.
-
-# License
-
-IIITDM Jabalpur
